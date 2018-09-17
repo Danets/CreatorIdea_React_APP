@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+#root {
+  padding-top: 50px;
+  background: #4d7fb3;
+  height: 100vh;
+}
+.column,
+.form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.form {
+  margin-top: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 10px #000;
+  background: #c7c434;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  display: block;
+  padding: 10px;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 10px; 
+}
+
+.form-control:active,
+.form-control:focus {
+  border: 1px solid #000;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/*BUTTONS*/
+.buttons {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons .button:first-child {
+  color: blue;
+  border-color: blue;
+}
+
+.buttons .button:last-child {
+  color: red;
+  border-color: red;
+}
+
+.button {
+  margin-left: 4px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  outline: none;  
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.toggle_btn:hover {
+  background-color: #f1e24f;
+}
+/*BUTTONS*/
+
+.content {
+  margin-top: 1%;
+}
+
+.container {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 10px #000;
+  background: #c7c434;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.span_icon {
+  display: inline-block;
+  cursor: pointer;
+}
+.span_icon:hover {
+  color: blue;
+}
+.span_icon:last-child {
+  margin-left: 4px;
+}
+.span_icon:last-child:hover {
+  color: red;
+}
